@@ -3,7 +3,7 @@ export default function json2html(data) {
     const columns = Array.from(new Set(data.flatMap(Object.keys)));
   
     // Start building the HTML table
-    let html = <table data-user="tspp9560@gmail.com">;
+    let html = <table data-user="tspp9560@gmail.com";
     html += <thead><tr>;
   
     // Add header row with column names
